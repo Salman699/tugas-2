@@ -1,0 +1,11 @@
+Materi
+1. Soft skill
+2. Desain web
+3. ui/ux
+4. Java script
+5. mysql
+6. php
+7. laravel
+8. git/github
+9. rest api
+

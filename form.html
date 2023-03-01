@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FORM</title>
+</head>
+<body>
+
+	<!-- membuat form -->
+	<form action="">
+		<table border="0" align="center" cellpadding="10" width="50%">
+			<thead>
+				<tr bgcolor="blueskay">
+					<th colspan="2">Lat Form</th>
+				</tr>
+			</thead>
+
+			<tfoot>
+				<tr>
+					<th>
+						<input type="submit" value="Submit">
+					</th>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>
+						<!-- input nama -->
+						<label>Nama</label>
+					</td>
+					<td>
+						<input type="text" nama="nama" value="" placeholder="Masukan Nama" size="50" width="100">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Email</label>
+					</td>
+					<td>
+						<input type="email" name="email" value="" placeholder="Masukan Email" size="50">
+					</td>
+				</tr>
+				<tr>
+					<td><label>Gender</label></td>
+					<td>
+						<input type="radio" name="gender" value="L" checked>Laki-laki &nbsp;&nbsp;
+						<input type="radio" name="gender" value="L" checked>Perempuan &nbsp;
+						<input type="radio" name="gender" value="L" checked>Others
+					</td>
+				</tr>
+				<tr>
+					<td><label>Hobby</label></td>
+					<td>
+						<input type="checkbox" name="hobby" value="menulis">Menulis <br>
+						<input type="checkbox" name="hobby" value="membaca">Membaca <br>
+						<input type="checkbox" name="hobby" value="bersepeda">Bersepeda <br>
+						<input type="checkbox" name="hobby" value="memancing">Memancing <br>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Pendidikan</label></td>
+					<td>
+						<select name="pendidikan">
+							<option value="">Pilih pendidikan</option>
+							<option value="SD">SD</option>
+							<option value="SMP">SMP</option>
+							<option value="SMA">SMA</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Alamat</label></td>
+					<td>
+						<textarea name="alamat" cols="44" rows="5" placeholder="Tuliskan Alamat"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Stok</label></td>
+					<td>
+						<input type="number" name="stok" value="stok" placeholder="masukan stok">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>

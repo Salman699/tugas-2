@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: skyblue;
+}
+.header{
+	display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+
+}
+table tr {
+	width: 100%;
+}
+.navbar ul li{
+	display: flex;
+	justify-content: center;
+	border: 5px;
+	
+
+}
